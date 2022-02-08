@@ -1,7 +1,7 @@
 f = open('eredmenyek.txt','r',encoding='latin2')
 l = [s.strip().split(';') for s in open('eredmenyek.txt','r',encoding='latin2')]
 l.remove(l[0])
-f.close()
+
 #3.feladat: Real Madrid, hazai, idegen
 
 hazai = [i[0] for i in l if i[0] == 'Real Madrid']
