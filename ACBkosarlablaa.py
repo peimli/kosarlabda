@@ -1,4 +1,3 @@
-
 l = [s.strip().split(';') for s in open('eredmenyek.txt','r',encoding='latin2')]
 l.remove(l[0])
 
